@@ -1,0 +1,76 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .roles-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .papers-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .section-box {
+    background-color: #21222D;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: white;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #71C3FF;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #21222D;
+    color: #71C3FF;
+  }
+
+  .dashboard-table th:nth-child(1), .dashboard-table td:nth-child(1),
+  .dashboard-table th:nth-child(2), .dashboard-table td:nth-child(2) {
+    width: 25%;
+  }
+  
+  .dashboard-table th:nth-child(5), .dashboard-table td:nth-child(5) { /* Name column */
+    width: fit-content;
+  }
+
+  tr:nth-child(even) {
+    background-color: #171821;
+  }
+  
+  tr:hover {
+    background-color: #21222D;
+    transition: background-color 0.3s ease;
+  }
+  

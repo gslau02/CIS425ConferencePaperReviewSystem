@@ -1,0 +1,88 @@
+.submit-paper-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .submit-paper-box {
+    background-color: #21222D;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  h2, h3 {
+    color: white;
+    margin: 20px 0;
+  }
+  
+  p {
+    color: #ffffff;
+  }
+  
+  .conference-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #71C3FF;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #21222D;
+    color: #71C3FF;
+  }
+
+  .submit-table th:nth-child(1), .submit-table td:nth-child(1) { /* Name column */
+    width: 40%;
+  }
+  
+  .submit-table th:nth-child(3), .submit-table td:nth-child(3),
+  .submit-table th:nth-child(4), .submit-table td:nth-child(4),
+  .submit-table th:nth-child(5), .submit-table td:nth-child(5) { /* Start Date, End Date, Submission Deadline columns */
+    width: 10%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #171821;
+  }
+  
+  tr:hover {
+    background-color: #21222D;
+    transition: background-color 0.3s ease;
+  }
+  
+  label {
+    color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #71C3FF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4e8fd9;
+  }
+  
+  /* Add more specific styles as needed */
+  

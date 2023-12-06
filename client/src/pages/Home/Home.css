@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  color: white;
+}
+
+.home-h2 {
+  margin: 40px;
+  color: white;
+}
+
+.home-container {
+  display: flex;
+  min-height: 100vh;
+  height: max-content; 
+  background-color: #171821;
+}
+
+.menu-bar {
+  width: 375px;
+  background-color: #21222D;
+  color: white;
+  padding: 20px 40px 0px 40px;
+  box-sizing: border-box;
+}
+
+.menu-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 90px;
+}
+
+.menu-bar li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.menu-bar li:hover,
+.menu-bar li.active { /* Added styles for the active button */
+  background-color: #71C3FF;
+  color: #21222D;
+}
+
+.right-container {
+  width: -webkit-fill-available;
+}
+
+.interface-container {
+  flex-grow: 1;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.interface-container h2 {
+  color: #71C3FF;
+}
+
+/* Add more styles as needed for different components */

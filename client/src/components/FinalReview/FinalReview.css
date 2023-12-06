@@ -1,0 +1,66 @@
+.final-review-container {
+    background-color: #21222D;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .final-review-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #71C3FF;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #21222D;
+    color: #71C3FF;
+  }
+
+  .final-review-table th:nth-child(1), .final-review-table td:nth-child(1) {
+    width: 15%;
+  }
+
+  .final-review-table th:nth-child(3), .final-review-table td:nth-child(3) {
+    width: 20%;
+  }
+
+  .final-review-table th:nth-child(2), .final-review-table td:nth-child(2),
+  .final-review-table th:nth-child(4), .final-review-table td:nth-child(4),
+  .final-review-table th:nth-child(5), .final-review-table td:nth-child(5),
+  .final-review-table th:nth-child(6), .final-review-table td:nth-child(6),
+  .final-review-table th:nth-child(7), .final-review-table td:nth-child(7) {
+    width: 8%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #171821;
+  }
+  
+  tr:hover {
+    background-color: #21222D;
+    transition: background-color 0.3s ease;
+  }
+  
+  select, button {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  button {
+    background-color: #71C3FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4e8fd9;
+  }
+  

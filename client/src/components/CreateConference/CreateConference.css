@@ -1,0 +1,51 @@
+.create-conference-container {
+    background-color: #21222D;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .create-form-group {
+    margin-bottom: 15px;
+    padding: 0;
+  }
+
+  .single-item {
+    padding: 0;
+    margin-right: 10px;
+    flex: 1
+  }
+
+  .group-container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  }
+  
+  .location-inputs {
+    display: flex;
+  }
+  
+  .location-inputs input {
+    flex: 1;
+    margin-right: 5px;
+  }
+
+  .create-button {
+    margin: 0;
+  }
+  
